@@ -336,7 +336,7 @@ namespace pcl
     */
   inline void 
   PointCloudXYZRGBtoXYZI (const PointCloud<PointXYZRGB>& in,
-                          PointCloud<PointXYZI>&         out)
+                          PointCloud<PointXYZI>& out)
   {
     out.width   = in.width;
     out.height  = in.height;
